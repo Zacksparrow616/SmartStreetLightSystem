@@ -1,0 +1,46 @@
+body{
+    background-color: #e6f0ff;
+}
+.side-bar{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    height: 80%;
+}
+li a{
+    font-weight: 600;
+    font-size: 15px;
+}
+.light li{
+    background-color: lightgreen;
+    padding: 20px;
+    margin:10px;
+    list-style: none;
+    border-radius: 5px;
+}
+.complaint-list li{
+    
+    list-style: none;
+}
+.complaint-list{
+    padding: 10px;
+    margin: 10px;
+}
+.complaint-content-pending{
+    background-color: #eb7898;
+    border-radius: 10px;
+    margin: 10px 30px;
+    padding: 10px;
+}
+.complaint-content-working{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px 30px;
+    padding: 10px;
+}
+.contactus-content{
+    background-color: #879ce6;
+    border-radius: 10px;
+    margin: 10px 30px;
+    padding: 10px;
+}

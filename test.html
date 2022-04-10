@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registation Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .form{
+                text-align: center;
+                border:2px green solid;
+                border-radius: 4px;
+                width: 40%;
+                padding: 10px;
+            }
+            input[type="text"]{
+                padding:7px;
+                border-radius: 4px;
+                width: 60%;
+           border: solid 1px grey;
+            }
+            input[type="text"]:focus{
+                padding:7px;
+                border-radius: 4px;
+                width: 60%;
+                border: solid 1px lightblue;
+            }
+            input[type="button"]{
+                padding:5px;
+                border-radius: 4px;
+                background-color: green;
+                    color:white;
+                    border:1px solid green;
+                    font-weight:bold;
+                    
+            }
+            .fields{
+                margin:10px;
+            }
+            h3{
+                background-color: green;
+                color:white;
+                padding: 10px;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <div class="form">
+            <form>
+                <h3>Registation From</h3>
+                <div class="fields">
+                <label>Name: <span style="color:red">*</span></label>
+                <input type="text" placeholder="Enter your name" name="name">
+                </div>
+                <div class="fields">
+                <label>Email: <span style="color:red">*</span></label>
+                <input type="text" placeholder="Enter your email" name="email">
+                </div>
+                <input type="button"  value="Sign Up" name="email">
+            </form>
+        </div>
+    </center>
+    </body>
+</html>
